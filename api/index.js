@@ -1,4 +1,4 @@
-const fetch=require('node-fetch')
+import fetch from'node-fetch'
 exports.handler = async function http (req) {
   console.log('Begin API called')
 const data= await  fetch('https://v6.exchangerate-api.com/v6/1f88a2cead881e5036e60f6b/latest/USD')
